@@ -11,7 +11,8 @@
       "Bash(xargs kill -9)",
       "Bash(curl:*)",
       "Bash(python3:*)",
-      "Bash(go test:*)"
+      "Bash(go test:*)",
+      "Bash(./bin/actalog:*)"
     ],
     "deny": [],
     "ask": []
