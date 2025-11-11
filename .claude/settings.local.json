@@ -2,7 +2,17 @@
   "permissions": {
     "allow": [
       "Bash(npm install)",
-      "Bash(npm run dev:*)"
+      "Bash(npm run dev:*)",
+      "Bash(go get:*)",
+      "Bash(make build:*)",
+      "Bash(timeout:*)",
+      "Bash(cat:*)",
+      "Bash(lsof:*)",
+      "Bash(xargs kill -9)",
+      "Bash(curl:*)",
+      "Bash(python3:*)",
+      "Bash(go test:*)",
+      "Bash(./bin/actalog:*)"
     ],
     "deny": [],
     "ask": []
