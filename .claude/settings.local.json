@@ -25,7 +25,12 @@
       "Bash(TOKEN=\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImpvaG5AZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3NjMwMzc0MTksIm5iZiI6MTc2Mjk1MTAxOSwiaWF0IjoxNzYyOTUxMDE5fQ.VYmtjqpReo2mIzNUN_FzJ1yQu1Kz2udkCFT_3MH7Igw\")",
       "Bash(echo \"=== Testing GET /api/prs ===\" curl -s -X GET \"http://localhost:8080/api/prs\" -H \"Authorization: Bearer $TOKEN\")",
       "Bash(echo \"\" echo \"=== Testing GET /api/pr-movements ===\" curl -s -X GET \"http://localhost:8080/api/pr-movements\" -H \"Authorization: Bearer $TOKEN\")",
-      "Bash(make run:*)"
+      "Bash(make run:*)",
+      "Bash(killall:*)",
+      "Bash(go build:*)",
+      "Bash(go fmt:*)",
+      "Bash(go vet:*)",
+      "Bash(golangci-lint run:*)"
     ],
     "deny": [],
     "ask": []
