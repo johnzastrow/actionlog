@@ -17,7 +17,15 @@
       "Bash(git merge:*)",
       "Bash(sqlite3:*)",
       "Bash(pkill:*)",
-      "Bash(./bin/check-schema:*)"
+      "Bash(./bin/check-schema:*)",
+      "Bash(npm run build:*)",
+      "Bash(convert:*)",
+      "Bash(TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImpvaG5AZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3NjMwMDE2MTQsIm5iZiI6MTc2MjkxNTIxNCwiaWF0IjoxNzYyOTE1MjE0fQ.6sqfp7GsmibCQ6VbZF1V7Bm6xwcoOyr9JF7g6bXCZNo)",
+      "Bash(TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImpvaG5AZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3NjMwMDE2MTQsIm5iZiI6MTc2MjkxNTIxNCwiaWF0IjoxNzYyOTE1MjE0fQ.6sqfp7GsmibCQ6VbZF1V7Bm6xwcoOyr9JF7g6bXCZNo curl -s -X GET \"http://localhost:8080/api/prs\" -H \"Authorization: Bearer $TOKEN\")",
+      "Bash(TOKEN=\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6ImpvaG5AZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3NjMwMzc0MTksIm5iZiI6MTc2Mjk1MTAxOSwiaWF0IjoxNzYyOTUxMDE5fQ.VYmtjqpReo2mIzNUN_FzJ1yQu1Kz2udkCFT_3MH7Igw\")",
+      "Bash(echo \"=== Testing GET /api/prs ===\" curl -s -X GET \"http://localhost:8080/api/prs\" -H \"Authorization: Bearer $TOKEN\")",
+      "Bash(echo \"\" echo \"=== Testing GET /api/pr-movements ===\" curl -s -X GET \"http://localhost:8080/api/pr-movements\" -H \"Authorization: Bearer $TOKEN\")",
+      "Bash(make run:*)"
     ],
     "deny": [],
     "ask": []
