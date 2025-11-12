@@ -14,7 +14,10 @@
       "Bash(go test:*)",
       "Bash(./bin/actalog:*)",
       "Bash(git fetch:*)",
-      "Bash(git merge:*)"
+      "Bash(git merge:*)",
+      "Bash(sqlite3:*)",
+      "Bash(pkill:*)",
+      "Bash(./bin/check-schema:*)"
     ],
     "deny": [],
     "ask": []
