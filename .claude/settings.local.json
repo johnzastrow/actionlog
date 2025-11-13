@@ -33,7 +33,8 @@
       "Bash(golangci-lint run:*)",
       "Bash(test:*)",
       "Bash(/tmp/user_workout_handler_fixed.go)",
-      "Bash(cp:*)"
+      "Bash(cp:*)",
+      "Bash(TOKEN=\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJlbWFpbCI6InRlc3RAZXhhbXBsZS5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3NjMwODUwMzYsIm5iZiI6MTc2Mjk5ODYzNiwiaWF0IjoxNzYyOTk4NjM2fQ.NeIXCyNOsBlEjzYKqY6rwElVnvXEhIPqFcuYC1T5mnE\":*)"
     ],
     "deny": [],
     "ask": []
